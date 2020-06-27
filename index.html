@@ -8,41 +8,41 @@
 </head>
 <body>
     <h1>Formulario de registro de horas médicas</h1>
-    <form class="form-register" onsubmit="return validar();">
+    <form class="form-register">
         <div class="contenedor-inputs">
             <input type="text" id="rut" name="rut" placeholder="Rut" class="inputcss" minlength="" required>
             <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="inputcss" minlength="2" required>
             <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="inputcss" minlength="2" required>
             <input type="number" id="edad" name="edad" placeholder="Edad" class="inputcss" required>
             <input type="email" id="correo" name="correo" placeholder="Correo" class="inputcss" required>
-            <select name="especialidad" class="inputcss" required>
-                <option value="5" selected>Especialidad  
-                <option value="10">Cardiología E Hipertensión 
-                <option value="5">Cardiología Infantil 
-                <option value="0">Dermatología 
-                <option value="5">Ginecología Y Obstetricia
-                <option value="0">Neurología Adultos
-                <option value="0">Oftalmología
-                <option value="0">Pediatría
-                <option value="0"> Psicología   
-                <option value="0">Traumatología
-                <option value="0">Unidad De Cardiología              
+            <select id="especialidad" class="inputcss" required>
+                <option value="0" selected>Especialidad  
+                <option value="1">Cardiología E Hipertensión 
+                <option value="2">Cardiología Infantil 
+                <option value="3">Dermatología 
+                <option value="4">Ginecología Y Obstetricia
+                <option value="5">Neurología Adultos
+                <option value="6">Oftalmología
+                <option value="7">Pediatría
+                <option value="8"> Psicología   
+                <option value="9">Traumatología
+                <option value="10">Unidad De Cardiología              
                 </select> 
             <input type="date" id="fecha" name="fecha" class="inputcss" required>
-            <select name="hora" class="inputcss" required> 
-                <option value="5" selected>08:00 hrs.
-                <option value="0">09:00 hrs. 
-                <option value="5">10:00 hrs.
-                <option value="0">11:00 hrs.
-                <option value="0">12:00 hrs.
-                <option value="0">13:00 hrs.
-                <option value="0">14:00 hrs.  
-                <option value="0">15:00 hrs.
-                <option value="0">16:00 hrs.
-                <option value="0">17:00 hrs.  
-                <option value="0">18:00 hrs.
-                <option value="0">19:00 hrs.
-                <option value="0">20:00 hrs.                
+            <select id="hora" class="inputcss" required> 
+                <option value="0" selected>08:00 hrs.
+                <option value="1">09:00 hrs. 
+                <option value="2">10:00 hrs.
+                <option value="3">11:00 hrs.
+                <option value="4">12:00 hrs.
+                <option value="5">13:00 hrs.
+                <option value="6">14:00 hrs.  
+                <option value="7">15:00 hrs.
+                <option value="8">16:00 hrs.
+                <option value="9">17:00 hrs.  
+                <option value="10">18:00 hrs.
+                <option value="11">19:00 hrs.
+                <option value="12">20:00 hrs.                
                 </select> 
                 <button id="sendReserv" class="buttonSend">
                     Generar reserva
@@ -52,6 +52,6 @@
     <div>
         
     </div>   
-    <script type="text/javascript" src="./assets/js/validar.js"></script>   
+    <script type="text/javascript" src="./assets/js/script.js"></script>   
 </body>
 </html>
