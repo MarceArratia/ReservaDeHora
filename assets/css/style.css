@@ -1,0 +1,50 @@
+body{font-family: sans-serif; background-color: #c7bacc; box-sizing: border-box;}   
+
+h1{
+    text-align: center;
+    
+}
+
+form{
+    background-color: rgb(100, 96, 116);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+input{
+    border-radius: 3px;
+    outline: none;
+    margin-bottom: 10px;
+
+    width: 280px;
+    height: 30px;
+}
+
+select{
+    border-radius: 3px;
+    outline: none;
+    margin-bottom: 10px;
+    width: 302px;
+    height: 38px;
+}
+
+.inputcss{
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+.inputcss:focus{
+    border-color:  rgb(124, 193, 250);
+}
+
+.buttonSend{
+    margin-left: 30%;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    width: 140px;
+    height: 50px;
+    margin-top: 3%;
+}
