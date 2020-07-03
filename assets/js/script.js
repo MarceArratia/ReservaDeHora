@@ -2,11 +2,11 @@ function validar(){
     //validar nombre
     var rut,expresionRut, nombres,expresionNombre, apellidos,expresionApellido,edad, correo, esp, especialidad,fecha, hora, ho, expresionCorreo;
     rut = document.getElementById("rut").value;
-    expresionRut = /^(\d{2}\.\d{3}\.\d{3}-)([a-zA-Z]{1}$|\d{1}$)/;
+    expresionRut = /^(\d{2}\d{3}\d{3}-)([a-zA-Z]{1}$|\d{1}$)/;
     nombres = document.getElementById("nombres").value;
-    expresionNombre= /^[A-Za-z]+$/;
+    expresionNombre= /^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$/;
     apellidos = document.getElementById("apellidos").value;
-    expresionApellido= /^[A-Za-z]+$/;
+    expresionApellido= /^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$/;
     edad = document.getElementById("edad").value;
     correo = document.getElementById("correo").value;
     expresionCorreo = /\w+@\w+\.+[a-z]/;
